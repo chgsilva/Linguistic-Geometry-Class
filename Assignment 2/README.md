@@ -1,6 +1,7 @@
 Student: Carlos Henrique Goncalves e Silva
 
-###############################SPECIFICATION#######################
+SPECIFICATION
+----------
 Project 2. Due 02/23/15
 Write a program for computation of trajectories in ABG.
 Input: set X (a 2D or 3D table with or without obstacles), an element p for which the trajectories should be calculated, relations of reachability for this element (if necessary*), location of the element (the start of trajectories), the end of trajectories, the length of trajectories.
@@ -11,8 +12,8 @@ Include at least one example of computation of trajectories for the element with
 
 The output should be both: a graph "drawn on the board" and a list of coordinates of locations (stops) along those trajectories. A reasonable explanation (or a proof) that all the required trajectories have been generated should be included.
 In particular, as a simple test generate all the trajectories for the King from a5 to h5 of the length 7. You do not have to print them all algebraically but print their total number (show them all on a graph).
-#####################################################################
-
+IMPUT 
+--------------
 The input of this program should be written in the Data.txt file, ant it must be the follow :
 
 The first line will be the the size of the Set. Example : 8x8 in the case of 2d and 8x8x8 in the case of 3d.
@@ -32,7 +33,8 @@ And finally, the reachability. The reachability will be enter by the number that
 	The output: The output will be displayed as a connected graph and each arrow means one move from one piece to the other.
 	The list of coordinates of locations is not showed because it is implicited on the arrows from the graph, but if you prefer that I print them, just email me and I will do it.
 	
-TO RUN THIS PROJECT:
+RUN THIS PROJECT:
+------------
 
 Put the following files "P1j.zip" and the "Data.txt" in the same directory, then open a terminal on this directory and type
 the following command

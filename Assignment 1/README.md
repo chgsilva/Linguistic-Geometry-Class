@@ -67,8 +67,8 @@ Another example of input:
 -------------------------
 
 
-TO RUN THIS PROJECT:
-
+RUN THIS PROJECT:
+------------
 Put the following files "P1j.zip" and the "Data.txt" in the same directory, then open a terminal on this directory and type
 the following command
 $ java -jar P1j.zip
