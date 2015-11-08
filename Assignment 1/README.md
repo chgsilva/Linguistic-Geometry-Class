@@ -13,8 +13,9 @@ Algorithm: for the 8x8 set X without obstacles generate 15x15 tables and use the
 for different X use direct computation.
 Print distances for sample locations for all the chess pieces (for 8x8 (and larger)
 board with and without obstacles): Pawn (assume that Pawn can move straight ahead only), Knight, Bishop, Rook, Queen, and King. Print all your 15x15 tables.
-##########################END OF SPECIFICATION##########################################
 
+IMPUT 
+--------------
 The input of this program should be written in the Data.txt file, ant it must be the follow :
 
 The first line will be the the size of the Set. Example : 8x8 in the case of 2d and 8x8x8 in the case of 3d.
