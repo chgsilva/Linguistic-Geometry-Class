@@ -1,7 +1,8 @@
 Student: Carlos Henrique Goncalves e Silva
 Student ID: 104668154
 
-###############################SPECIFICATION#######################
+SPECIFICATION
+----------
 Project 1. Due 02/09/15
 Write a program for computation of distances in ABG.
 Input: set X (a 2D or 3D table with or without obstacles), an element p for which the
@@ -12,7 +13,7 @@ Algorithm: for the 8x8 set X without obstacles generate 15x15 tables and use the
 for different X use direct computation.
 Print distances for sample locations for all the chess pieces (for 8x8 (and larger)
 board with and without obstacles): Pawn (assume that Pawn can move straight ahead only), Knight, Bishop, Rook, Queen, and King. Print all your 15x15 tables.
-####################################################################
+##########################END OF SPECIFICATION##########################################
 
 The input of this program should be written in the Data.txt file, ant it must be the follow :
 
@@ -29,7 +30,7 @@ And finally, the reachability. The reachability will be enter by the number that
 
 When The table is 2d, without obstacle, all of the 15x15 tables are printed as output. As requested in the project description. Otherwise will be used the direct computation.
 
-	Example of input:
+Example of input:
 -------------------------	
 	5x5x5
 	2x2x4
@@ -41,17 +42,17 @@ In this imput, It asks for the distances for a table 3D, of size 5x5x5, with a o
 The Output for 3D tables is the following: Each layer of the 3d is printed separately. 
 OutPut Example for 3D Tables:
 -------------------------
-3 2 3 
-2 1 2 
-3 2 3 
+    3 2 3   
+    2 1 2 
+    3 2 3 
 
-2 1 2 
-1 0 1 
-2 1 2 
+    2 1 2 
+    1 0 1 
+    2 1 2 
 
-3 2 3 
-2 1 2 
-3 2 3
+    3 2 3 
+    2 1 2 
+    3 2 3
 -------------------------
 The 0 space is where the Rook is located, and the numbers are the distances.
 
